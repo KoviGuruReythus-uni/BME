@@ -20,5 +20,6 @@ $D_uf(x,y) = \nabla f(x,y). {u}$
 
 _EXPLANATION_: 
 - It is the change in both x and y in the direction of $u$. We dot $u$ and $\nabla f$ and since $u$ is simply just a unit vector, we inherit its direction and nothing else. 
-- _Change of $x,y$ in the direction of $u$ _
+- *Change of $x,y$ in the direction of $u$*
 ___
+## Searching for local extreme values
