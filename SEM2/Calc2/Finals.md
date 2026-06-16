@@ -1,7 +1,7 @@
-# Written
+# WRITTEN
 
 ## Topics to cover
-- [ ] Estimating change in specific direction
+- [x] Estimating change in specific direction
 - [ ] Searching for local extreme values
 - [ ] Double integral to find the volume
 - [ ] Double integral to find the area
@@ -20,6 +20,6 @@ $D_uf(x,y) = \nabla f(x,y). {u}$
 
 _EXPLANATION_: 
 - It is the change in both x and y in the direction of $u$. We dot $u$ and $\nabla f$ and since $u$ is simply just a unit vector, we inherit its direction and nothing else. 
-- *Change of $x,y$ in the direction of $u$*
+- Change of $x,y$ in the direction of $u$
 ___
 ## Searching for local extreme values
