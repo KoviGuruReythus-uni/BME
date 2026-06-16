@@ -1,2 +1,2 @@
 # BME
-Obsidian github sync for uni notes
+Obsidian, github sync for uni notes
