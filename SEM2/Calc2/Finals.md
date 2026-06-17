@@ -24,5 +24,6 @@ _EXPLANATION_:
 ___
 ## Searching for local extreme values
 ### First derivative test for local extrema
-*If $f(x,y)$ has a $M$ or $m$ at an interior point $(a,b)$ of its domain and IF the partial derivatives exist there, then $f_x(a,b) = f_y(a,b) = 0$*
+If $f(x,y)$ has a $M$ or $m$ at an interior point $(a,b)$ of its domain and *IF* the partial derivatives exist there, then $f_x(a,b) = f_y(a,b) = 0$
+
 
