@@ -1,7 +1,7 @@
 # WRITTEN
 
 ## Topics to cover
-- [x] Estimating change in specific direction
+- [ ] Estimating change in specific direction
 - [ ] Searching for local extreme values
 - [ ] Double integral to find the volume
 - [ ] Double integral to find the area
@@ -23,3 +23,6 @@ _EXPLANATION_:
 - Change of $x,y$ in the direction of $u$
 ___
 ## Searching for local extreme values
+### First derivative test for local extrema
+*If $f(x,y)$ has a $M$ or $m$ at an interior point $(a,b)$ of its domain and IF the partial derivatives exist there, then $f_x(a,b) = f_y(a,b) = 0$*
+
