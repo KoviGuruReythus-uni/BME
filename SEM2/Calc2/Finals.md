@@ -14,7 +14,7 @@
 ___
 ## Estimating change in specific direction
 
-$D_uf(x,y) = \nabla f(x,y). {u}$ 
+$\boxed{D_uf(x,y) = \nabla f(x,y). {u}}$ 
 - $\nabla f(x,y) = \langle f_x, f_y \rangle$ 
 - $u$ - *unit* vector in the direction that we want
 
@@ -26,4 +26,23 @@ ___
 ### First derivative test for local extrema
 If $f(x,y)$ has a $M$ or $m$ at an interior point $(a,b)$ of its domain and *IF* the partial derivatives exist there, then $f_x(a,b) = f_y(a,b) = 0$
 
+We look at *critical points* 
+- $f_x,~f_y$ are either,
+	- both zero
+	- either one or both do not exist
+
+At these critical points, we might end with the extrema, or a *saddle point* 
+
+- To clearly differentiate between the extrema (either M or m) and the saddle point, we introduce the *Second derivate test*
+
+### Second derivative test for local extrema
+*quick interlude*
+HESSIAN
+- $f_{xx}f_{xy}~-~f_{xy}^2~=$ 
+$$
+- $f(x,y)$ is continuous
+- $f_x(a,b)~ =~f_y(a,b)~=~0$ 
+	1. $f$ has a local maxima ($M$) at $(a,b)$  
+		- $f_{xx}<0$ 
+		- $f_{xx}f_{xy}~-~f_{xy}^2~>~0$ at $(a,b)$ 
 
