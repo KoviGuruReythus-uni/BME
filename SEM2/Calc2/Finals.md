@@ -1,8 +1,8 @@
 # WRITTEN
 
 ## Topics to cover
-- [ ] Estimating change in specific direction
-- [ ] Searching for local extreme values
+- [x] Estimating change in specific direction
+- [x] Searching for local extreme values
 - [ ] Double integral to find the volume
 - [ ] Double integral to find the area
 - [ ] Double integral to find the moments and centre of mass
@@ -37,12 +37,36 @@ At these critical points, we might end with the extrema, or a *saddle point*
 
 ### Second derivative test for local extrema
 *quick interlude*
-HESSIAN
-- $f_{xx}f_{xy}~-~f_{xy}^2~=$ 
+
 $$
+\boxed{Hessian~=~H~=~f_{xx}f_{xy} - f_{xy}^2 ~=~
+\begin{vmatrix}
+f_{xx} & f_{xy} \\
+f_{xy} & f_{yy}
+\end{vmatrix}}
+$$
+- The Hessian is the transformation matrix we use (very interesting shit tbh)
+
+
 - $f(x,y)$ is continuous
 - $f_x(a,b)~ =~f_y(a,b)~=~0$ 
 	1. $f$ has a local maxima ($M$) at $(a,b)$  
 		- $f_{xx}<0$ 
-		- $f_{xx}f_{xy}~-~f_{xy}^2~>~0$ at $(a,b)$ 
+		- $H>0$ at $(a,b)$ 
+	2. $f$ has a local minima ($m$) at $(a,b)$ 
+		- $f_{xx} > 0$  
+		- $H>0$ at $(a,b)$ 
+	3. Saddle point
+		- $H<0$ 
+	4. Inconclusive
+		- $H=0$
 
+| $H>0$ |              | Saddle |
+| ----- | ------------ | ------ |
+|       |              |        |
+| $H<0$ |              |        |
+|       | $f_{xx} < 0$ | Maxima |
+|       | $f_{xx}>0$   | Minima |
+|       |              |        |
+| $H=0$ |              | idfk   |
+___
