@@ -3,11 +3,11 @@
 ## Topics to cover
 - [x] Estimating change in specific direction
 - [x] Searching for local extreme values
-- [ ] Double integral to find the volume
-- [ ] Double integral to find the area
+- [x] Double integral to find the volume
+- [x] Double integral to find the area
 - [ ] Double integral to find the moments and centre of mass
 - [ ] Double integral to find the average value of f over R
-- [ ] Double integral in polar form
+- [x] Double integral in polar form
 - [ ] Substitutions in double and triple integrals
 - [ ] Triple integral to find the volume
 - [ ] Triple integral in cylindrical and spherical coordinates
